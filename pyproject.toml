@@ -1,0 +1,13 @@
+[project]
+name = "python_toolbox"
+version = "1.0.0"
+description = "Place to keep Python code snippets and useful functions and methods"
+authors = [{name = "Jess Friedersdorff", email = "jess@friedersdorff.com"}]
+requires-python = "== 3.16"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+my_package = "python_toolbox:main"
